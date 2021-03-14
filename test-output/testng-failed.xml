@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="RegressionSuit.testcase2">
+        <methods>
+          <include name="login"/>
+          <include name="newlog"/>
+          <include name="newsfeed"/>
+          <include name="shut"/>
+        </methods>
+      </class> <!-- RegressionSuit.testcase2 -->
+      <class name="RegressionSuit.testcase1">
+        <methods>
+          <include name="ValidLogin"/>
+          <include name="shut"/>
+          <include name="DeactivateUser"/>
+          <include name="InvalidLogin"/>
+          <include name="launch"/>
+          <include name="ssouserlogin"/>
+          <include name="passwordreset"/>
+        </methods>
+      </class> <!-- RegressionSuit.testcase1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
