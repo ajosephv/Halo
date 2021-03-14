@@ -1,3 +1,4 @@
 hello
  this is a push to branch
  pull this code from develop
+ now pull this to develop and then merge to master
